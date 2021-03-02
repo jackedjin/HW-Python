@@ -24,4 +24,21 @@ def input_output():
 		dec=input("Enter 'y' to continue or 'n' to exit:")
 		if dec == 'n':
 			break
-
+def calculator(number1,number2,operator):
+	'''
+	determines the arithmetic operator with conditional if statements,
+	and returns respective results
+	'''
+	if operator=='+':
+		return number1+number2
+	if operator=='-':
+		return number1-number2
+	if operator=='*':
+		return number1*number2
+	if operator=='/':
+		return number1/number2
+	if operator=='//':
+		return number1//number2
+	if operator=='**':
+		return number1**number2
+input_output()
